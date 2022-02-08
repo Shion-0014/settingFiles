@@ -1,0 +1,36 @@
+{ // vim -----------------------
+    "vim.insertModeKeyBindings": [
+    {
+            "before": ["k", "j"],
+            "after": ["<Esc>"]
+    },
+    {
+        "before": ["C-e"],
+        "after": ["<Esc>", "$", "a"]
+    },
+    {
+        "before": ["C-o"],
+        "after": ["<Esc>", "l", "a"]
+    },
+
+    ],
+    "vim.normalModeKeyBindings": [
+    {
+        "before": ["m"],
+        "after": ["$"]
+    },
+    ],
+    "vim.visualModeKeyBindings": [
+    {
+        "before": ["m"],
+        "after": ["$"]
+    },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+            {
+                "before": ["<Esc>"],
+                "commands": [":nohl"]
+            }
+    ],
+    "vim.hlsearch": true,
+}

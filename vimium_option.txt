@@ -1,0 +1,15 @@
+# Insert your preferred key mappings here.
+map h goBack
+map l goForward
+map H scrollLeft
+map L scrollRight
+map i LinkHints.activateMode
+map I LinkHints.activateModeToOpenInNewTab
+unmap u
+map u scrollUp count=9
+unmap d
+map e scrollDown count=9
+unmap m
+unmap b
+unmap o
+unmap O
